@@ -10,10 +10,10 @@ $ npm install
 
 ## Development mode
 
-### Watch
+### watch
 
 ```
-$ npm run wacth
+$ npm run watch
 ```
 
 or build directly.
@@ -24,4 +24,4 @@ or build directly.
 $ npm run build
 ```
 
-The final generate's `ohana.css` locate at `dist/css/hana.css`, feel free to use it :)   
+The resulting file `ohana.css` locates at `dist/css/hana.css`, feel free to use it :)
