@@ -24,4 +24,4 @@ or build directly.
 $ npm run build
 ```
 
-The resulting file `ohana.css` locates at `dist/css/hana.css`, feel free to use it :)
+The resulting file `ohana.css` locates at `dist/css/ohana.css`, feel free to use it :)
