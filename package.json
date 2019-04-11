@@ -1,7 +1,7 @@
 {
   "name": "ohana",
   "version": "0.0.1",
-  "description": "a extra simple CSS framework with love.",
+  "description": "A very simple CSS framework for love",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode production",
