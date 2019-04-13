@@ -18,8 +18,8 @@ _sides_ 取值范围：
 - `b` - 设置 `margin-bottom` 或 `padding-bottom` 
 - `l` - 设置 `margin-left` 或 `padding-left` 
 - `r` - 设置 `margin-right` 或 `padding-right` 
-- `x` - 设置 `*-left` 或 `*-right` 
-- `y` - 设置 `*-top` 或 `*-bottom` 
+- `x` - 设置 `*-left` 和 `*-right` 
+- `y` - 设置 `*-top` 和 `*-bottom` 
 - 空 - 直接对 `margin` 或 `padding` 属性设置(对四个边都起作用)。
 
 _size_ 取值范围：
