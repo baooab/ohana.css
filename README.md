@@ -35,4 +35,4 @@ The resulting file `ohana.css` locates at `dist/css/ohana.css`, feel free to use
 所有工具类使用 `u-` 前缀开头。
 
 - [颜色](./examples/utilities/colors.html)
-- [间隔](./examples/utilities/spacing.html)
+- [间隔](./docs/utilities/spacing.md)
