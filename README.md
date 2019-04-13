@@ -26,7 +26,7 @@ $ npm run build
 
 The resulting file `ohana.css` locates at `dist/css/ohana.css`, feel free to use it :)
 
-### Document(Chinese)
+### Document
 
 #### 工具类
 
