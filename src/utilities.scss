@@ -29,12 +29,80 @@
 }
 
 //--------------------
+// Text
+//--------------------
+
+// Text Align
+
+$textAligns: (
+  'left': left,
+  'right': right,
+  'center': center,
+  'justify': justify
+);
+@each $align, $value in $textAligns {
+  .u-text#{capitalize($align)} {
+    text-align: #{$value} !important;
+  }
+}
+
+.u-textWrap {
+  white-space: normal !important;
+}
+.u-textNowrap {
+  white-space: nowrap !important;
+}
+.u-textTruncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.u-textBreak {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+}
+.u-textLowercase {
+  text-transform: lowercase !important;
+}
+.u-textUppercase {
+  text-transform: uppercase !important;
+}
+.u-textCapitalize {
+  text-transform: capitalize !important;
+}
+.u-textDecoration-underline {
+  text-decoration: underline !important;
+}
+.u-textDecoration-none {
+  text-decoration: none !important;
+}
+
+$fontWeights: (
+  'lighter': lighter,
+  'light': 300,
+  'normal': 400,
+  'bold': 700,
+  'bolder': bolder
+);
+@each $weight, $value in $fontWeights {
+  .u-font#{capitalize($weight)} {
+    font-weight: #{$value} !important;
+  }
+}
+
+.u-fontItalic {
+  font-style: italic !important;
+}
+
+//--------------------
 // Spacing
 //--------------------
 
 @each $prop, $abbrev in (margin: m, padding: p) {
   @each $size, $length in $spacers {
-    .u-#{$abbrev}-#{$size} { #{$prop}: $length !important; }
+    .u-#{$abbrev}-#{$size} {
+      #{$prop}: $length !important;
+    }
     .u-#{$abbrev}t-#{$size},
     .u-#{$abbrev}y-#{$size} {
       #{$prop}-top: $length !important;
