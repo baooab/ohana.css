@@ -22,7 +22,6 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "minireset.css": "0.0.4",
     "normalize.css": "^8.0.1"
   }
 }

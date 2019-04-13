@@ -1,4 +1,4 @@
-import 'normalize.css';
-import 'minireset.css';
 
-import './ohana.scss';
+import "normalize.css";
+
+import "./ohana.scss";

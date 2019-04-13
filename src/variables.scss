@@ -1,0 +1,39 @@
+
+// Colors
+$darker: #212121 !default;
+$dark: #424242 !default;
+$darkish: #828282 !default;
+$blue: #1a7de1 !default; 
+$gray: #bdbdbd !default;
+$white: #fff !default;
+$green: #5bb25f !default; 
+$yellow: #f9d676 !default;
+$orange: #f1bc37 !default; 
+$red: #ff7f5a !default;
+$light: #fafafa !default;
+
+// Color list
+$colors: (
+  "darker": $darker,
+  "dark": $dark,
+  "darkish": $darkish,
+  "blue": $blue,
+  "yellow": $yellow,
+  "gray": $gray,
+  "white": $white,
+  "green": $green,
+  "orange": $orange,
+  "red": $red,
+  "light": $light
+);
+
+$spacer: 1rem !default;
+
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+);
