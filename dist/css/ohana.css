@@ -405,6 +405,66 @@ a[href].u-textLight:hover {
 .u-bgLight {
   background-color: #fafafa !important; }
 
+.u-textLeft {
+  text-align: left !important; }
+
+.u-textRight {
+  text-align: right !important; }
+
+.u-textCenter {
+  text-align: center !important; }
+
+.u-textJustify {
+  text-align: justify !important; }
+
+.u-textWrap {
+  white-space: normal !important; }
+
+.u-textNowrap {
+  white-space: nowrap !important; }
+
+.u-textTruncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.u-textBreak {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important; }
+
+.u-textLowercase {
+  text-transform: lowercase !important; }
+
+.u-textUppercase {
+  text-transform: uppercase !important; }
+
+.u-textCapitalize {
+  text-transform: capitalize !important; }
+
+.u-textDecoration-underline {
+  text-decoration: underline !important; }
+
+.u-textDecoration-none {
+  text-decoration: none !important; }
+
+.u-fontWeight-lighter {
+  font-weight: lighter !important; }
+
+.u-fontWeight-light {
+  font-weight: 300 !important; }
+
+.u-fontWeight-normal {
+  font-weight: 400 !important; }
+
+.u-fontWeight-bold {
+  font-weight: 700 !important; }
+
+.u-fontWeight-bolder {
+  font-weight: bolder !important; }
+
+.u-fontItalic {
+  font-style: italic !important; }
+
 .u-m-0 {
   margin: 0 !important; }
 

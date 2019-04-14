@@ -36,3 +36,4 @@ The resulting file `ohana.css` locates at `dist/css/ohana.css`, feel free to use
 
 - [颜色](./examples/utilities/colors.html)
 - [间隔](./docs/utilities/spacing.md)
+- [文本](./docs/utilities/text.md)

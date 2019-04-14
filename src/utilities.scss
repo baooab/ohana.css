@@ -85,7 +85,7 @@ $fontWeights: (
   'bolder': bolder
 );
 @each $weight, $value in $fontWeights {
-  .u-font#{capitalize($weight)} {
+  .u-fontWeight-#{$weight} {
     font-weight: #{$value} !important;
   }
 }

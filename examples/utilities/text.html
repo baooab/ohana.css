@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>Text - Utilities</title>
+    <link rel="stylesheet" href="../../dist/css/ohana.css">
+    <link rel="stylesheet" href="../examples.css">
+  </head>
+  <body>
+
+    <div class="l-container u-mb-5">
+      <h1 class="u-my-5">文本</h1>
+
+      <h2 class="u-mt-5 u-mb-4">文本对齐</h2>
+      
+      <p><code>.u-textJustify</code>：两端对齐</p>
+      <p class="u-textJustify od-exampleBox">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+
+      <p>左/居中/右对齐</p>
+      <ul>
+        <li><code>.u-textLeft</code>：左对齐</li>
+        <li><code>.u-textCenter</code>：居中对齐</li>
+        <li><code>.u-textRight</code>：右对齐</li>
+      </ul>
+      <p class="u-textLeft od-exampleBox">Left aligned text on all viewport sizes.</p>
+      <p class="u-textCenter od-exampleBox">Center aligned text on all viewport sizes.</p>
+      <p class="u-textRight od-exampleBox">Right aligned text on all viewport sizes.</p>
+
+      <h2 class="u-mt-5 u-mb-4">文本折行和文本溢出</h2>
+
+      <p><code>.u-textWrap</code>：文本折行</p>
+      <p class="u-textWrap od-exampleBox" style="width: 6rem;">This text should wrap.</p>
+      <p><code>.u-textNowrap</code>：文本不折行</p>
+      <div class="u-textNowrap od-exampleBox" style="width: 8rem;">This text should overflow the parent.</div>
+      <p><code>.u-textTruncate</code>：文本截断。仅适用于 <code>display: inline-block</code> 或 <code>display: block</code> 元素。</p>
+      <span class="u-textTruncate od-exampleBox" style="display: inline-block; max-width: 310px;"><code>display: inline-block;</code>元素截断效果哦哦哦哦哦哦。</span>
+      <div class="u-textTruncate od-exampleBox" style="max-width: 250px;"><code>display: block;</code>元素截断效果哦哦哦哦哦哦。</div>
+
+      <h2 class="u-mt-5 u-mb-4">分词</h2>
+
+      <p class="u-textBreak od-exampleBox">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+      
+      <h2 class="u-mt-5 u-mb-4">文本转换</h2>
+
+      <p class="u-textLowercase">Lowercased text.</p>
+      <p class="u-textUppercase">Uppercased text.</p>
+      <p class="u-textCapitalize">CapiTaliZed text.</p>
+
+      <h2 class="u-mt-5 u-mb-4">字重和斜体字</h2>
+
+      <p class="u-fontWeight-bold">Bold text.</p>
+      <p class="u-fontWeight-bolder">Bolder weight text (relative to the parent element).</p>
+      <p class="u-fontWeight-normal">Normal weight text.</p>
+      <p class="u-fontWeight-light">Light weight text.</p>
+      <p class="u-fontWeight-lighter">Lighter weight text (relative to the parent element).</p>
+      <p class="u-fontItalic">Italic text.</p>
+
+      <h2 class="u-mt-5 u-mb-4">文本装饰</h2>
+
+      <p class="u-textDecoration-underline">Has underlined text.</p>
+      <a href="javascript:" class="u-textDecoration-none">Non-underlined link.</a>
+    </div>
+  </body>
+</html>
