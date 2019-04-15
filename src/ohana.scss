@@ -1,5 +1,15 @@
 @import "./mixins.scss";
 @import "./variables.scss";
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+@import "./layout.scss";
 // 引入工具类
 @import "./utilities.scss";
