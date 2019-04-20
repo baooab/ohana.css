@@ -1,0 +1,24 @@
+.breadcrumb {
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.breadcrumb ul {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.breadcrumb ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb ul li a {
+    display: flex;
+    align-items: center;
+    color: #a3a7a3;
+    padding: 0 .75em;
+}
