@@ -820,3 +820,28 @@ a[href].u-textLight:hover {
 .u-ml-auto,
 .u-mx-auto {
   margin-left: auto !important; }
+
+.breadcrumb {
+  font-size: 1rem;
+  white-space: nowrap; }
+  .breadcrumb li {
+    list-style: none;
+    display: flex;
+    align-items: center; }
+  .breadcrumb a {
+    display: flex;
+    align-items: center;
+    color: #a3a7a3;
+    padding: 0 0.75em; }
+
+.breadcrumb ul {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+.breadcrumb.is-centered ul {
+  justify-content: center; }
+
+.breadcrumb.is-right ul {
+  justify-content: flex-end; }
