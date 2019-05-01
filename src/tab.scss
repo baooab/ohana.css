@@ -1,0 +1,38 @@
+.tabs {
+    font-size: 1rem;
+    a {
+      text-decoration: none;
+      padding: .5em 1em;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+    
+    li {
+      display: block;
+       &.is-active {
+         a {
+          border-bottom: 1px solid #f1bc37;
+         }
+       }
+    }
+    li+li::before {
+      content: ''
+    }
+  }
+  
+  .is-centered {
+    ul {
+      justify-content: center;
+    }
+  }
+  
+  .is-right {
+    ul {
+      justify-content: flex-end;
+    }
+  }
+  
+  

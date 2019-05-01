@@ -845,3 +845,25 @@ a[href].u-textLight:hover {
 
 .breadcrumb.is-right ul {
   justify-content: flex-end; }
+
+.tabs {
+  font-size: 1rem; }
+  .tabs a {
+    text-decoration: none;
+    padding: .5em 1em; }
+  .tabs ul {
+    list-style: none;
+    padding: 0;
+    display: flex; }
+  .tabs li {
+    display: block; }
+    .tabs li.is-active a {
+      border-bottom: 1px solid #f1bc37; }
+  .tabs li + li::before {
+    content: ''; }
+
+.is-centered ul {
+  justify-content: center; }
+
+.is-right ul {
+  justify-content: flex-end; }
